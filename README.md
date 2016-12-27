@@ -1,2 +1,2 @@
 # MEANFullStack
-Repositório de para versionar código do livro MEAN: Full stack.
+I create this repository to versionate the activities from the book :MEAN: Full stack, Author: Flávio Almeida.
