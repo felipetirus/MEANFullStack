@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/felipetirus/MEANFullStack/issues"
   },
-  "homepage": "https://github.com/felipetirus/MEANFullStack#readme"
+  "homepage": "https://github.com/felipetirus/MEANFullStack#readme",
+  "dependencies": {
+    "express": "^4.8.8"
+  }
 }
