@@ -1,0 +1,20 @@
+{
+  "name": "meanfullstack",
+  "version": "1.0.0",
+  "description": "I create this repository to versionate the activities from the book :MEAN: Full stack, Author: Flávio Almeida.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipetirus/MEANFullStack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipetirus/MEANFullStack/issues"
+  },
+  "homepage": "https://github.com/felipetirus/MEANFullStack#readme"
+}
