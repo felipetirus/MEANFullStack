@@ -12,7 +12,11 @@ module.exports = function () {
       index: {
         unique: true
       }
+    },
+    emergencia: {
+      type: mongoose.Schema.ObjectId,
+      ref: 'Contato'
     }
   });
-  return mongoose.model('contato', schema);
+  return mongoose.model('Contato', schema);
 };
