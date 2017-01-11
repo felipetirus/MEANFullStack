@@ -8,7 +8,7 @@ module.exports = function (app) {
   var controller = {};
   controller.listaContatos = function (req, res) {
     Contato
-      .find()
+      .find().populate('emergencia')
       .exec()
       .then(function(contatos) {
           res.json(contatos);
