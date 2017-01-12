@@ -1,4 +1,5 @@
 var mongoose = require('mongoose');
+var findOrCreate = require('mongoose-findorcreate');
 
 module.exports = function () {
   var schema = mongoose.Schema({
@@ -18,5 +19,6 @@ module.exports = function () {
       ref: 'Contato'
     }
   });
+  schema.plugin(findOrCreate);
   return mongoose.model('Contato', schema);
 };
